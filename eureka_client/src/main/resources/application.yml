@@ -1,0 +1,9 @@
+server:
+  port: 8681
+spring:
+  application:
+    name: service-client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8686/eureka/
