@@ -20,7 +20,6 @@ public class RibbonApplication {
     @Bean
     @LoadBalanced
     RestTemplate restTemplate(){
-
         return new RestTemplate();
     }
 }
